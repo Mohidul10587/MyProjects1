@@ -1,0 +1,108 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin:70px auto;
+}
+
+
+.flexible-div{
+    display: flex;
+}
+
+.limited-width{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+.heading-style{
+    border-left: 4px solid;
+    border-image: linear-gradient( red,rgb(150, 98, 2));
+    border-image-slice:1;
+    padding:0 5px;
+    
+}
+span{
+    color: rgb(223, 101, 57);
+}
+
+
+.limited-width  img{
+    width: 90%;
+}
+h1{
+    font-size: 45px;
+    
+}
+p{
+    margin-bottom: 40px;
+}
+
+a{  
+    background-image: linear-gradient(tomato,orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+ 
+}
+
+
+.section-two{
+    text-align: center;
+   margin: 0px 80px;
+}
+
+.image-width{
+    width: 27%;
+    padding: 30px 9px;
+    margin: 0 8px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.img{
+ width: 40%;
+ 
+ 
+}
+
+.flexible-div2{
+    text-align: center;
+    
+}
+
+
+.footer-div
+{
+    text-align: center;
+    background-color: black;
+    height:100px;
+    padding-top: 5px;
+    color: white;
+}
+.bg-img1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;  
+    background-size: 180px 160px;
+    background-position-x: 10px;
+    background-position-y: 110px;
+    padding-left: 30px;
+}
+
+.bg-img2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 140px 140px;
+    background-position-x: 950px;
+    background-position-y: 300px;
+    
+}
+.bg-img3{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 140px 140px;
+    background-position-x: 45px;
+    background-position-y: 80px;   
+}
